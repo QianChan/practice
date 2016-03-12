@@ -1,0 +1,146 @@
+*,p,ul{
+    margin: 0;
+    padding:0;
+    font-family: 'Alegreya SC', Georgia, serif;
+}
+ul{
+    list-style: none;
+}
+.banner{
+    width:100%;
+    height:200px;
+    position:relative;
+    background-color:#F4F7FE;
+}
+.logo{
+    width:200px;
+    height:200px;
+    position: absolute;
+    top:0;
+    left:25%;
+}
+.team-name{
+    height:200px;
+    line-height:250px;
+    position: absolute;
+    left: 40%;
+    font-size: 42px;
+    font-weight:400;
+    color: #49a9be;
+}
+.container{
+    width:80%;
+    height:auto;
+    margin:0 auto;
+}
+.about-team{
+   width:100%;
+   height: 300px;
+}
+.right-title{
+    font-size: 38px;
+    font-weight:400;
+    font-style: italic;
+    width:40%;
+    height:42px;
+    line-height:42px;
+    float:right;
+    margin-top:40px;
+    margin-bottom:40px;
+    text-align: right;
+    color:#4DB3C9;
+    border-bottom: 3px solid #ccc;
+}
+.about-team p,.introduction li p{
+    text-indent: 2em;
+    float:left;
+    margin: 0 auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    word-wrap: break-word;
+    word-break: normal;
+}
+.members{
+    margin-top: -20px;
+    margin-bottom:40px;
+    width:100%;
+    height:auto;
+}
+.left-title{
+    font-size: 38px;
+    font-weight:400;
+    font-style: italic;
+    width:40%;
+    height:42px;
+    line-height:42px;
+    margin-bottom:40px;
+    color:#4DB3C9;
+    border-bottom: 3px solid #ccc;
+}
+.introduction li{
+    width:26%;
+    height:350px;
+    float:left;
+    margin:20px;
+    text-align: center;
+}
+.pic{
+    width:150px;
+    height:150px;
+    overflow:hidden;
+    border-radius:75px;
+}
+.pic:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+}
+.member-name{
+    font-size:25px;
+    color:#05819D;
+    text-align:center;
+}
+.introduction li p{
+    font-size:16px;
+    text-align:left;
+    overflow: hidden;
+    height:150px;
+}
+.contact{
+    width:100%;
+    height:auto;
+    clear: both;
+}
+.contact ul{
+    width:600px;
+    height:200px;
+    margin:20px auto;
+    clear: both;
+}
+.contact li{
+    float:left;
+    margin:110px 25px 45px;
+    border:2px solid #fff;
+}
+.contact .special{
+    margin:45px 25px;
+}
+footer{
+    width:100%;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    font-size:18px;
+}
+footer span{
+    display: block;
+    margin:0 auto;
+}
+
+
+
+
+
